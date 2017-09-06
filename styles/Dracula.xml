@@ -7,23 +7,26 @@
   <style name="SearchResult" background="#425f44"/>
   <style name="SearchScope" background="#222200"/>
   <style name="Parentheses" foreground="#ffef28" background="#333333"/>
+  <style name="ParenthesesMismatch" background="#ff00ff"/>
+  <style name="AutoComplete" foreground="#000080" background="#c0c0ff"/>
   <style name="CurrentLine" background="#3a3a3a"/>
   <style name="CurrentLineNumber" foreground="#888888" bold="true"/>
-  <style name="Occurrences" background="#001393"/>
+  <style name="Occurrences" background="#938a0a"/>
   <style name="Occurrences.Unused" foreground="#808080"/>
   <style name="Occurrences.Rename" foreground="#ffaaaa" background="#553636"/>
   <style name="Number" foreground="#49858b"/>
   <style name="String" foreground="#a5c261"/>
   <style name="Type" foreground="#9876aa"/>
   <style name="Local" foreground="#c3c3c3"/>
+  <style name="Global" foreground="#ce5c00"/>
   <style name="Field" foreground="#bc9458"/>
   <style name="Static" foreground="#9876aa" italic="true"/>
-  <style name="VirtualMethod" foreground="#6db6ff" italic="true"/>
+  <style name="VirtualMethod" foreground="#ffa154" italic="true"/>
   <style name="Function" foreground="#ffc66d"/>
   <style name="Keyword" foreground="#cc7832"/>
   <style name="PrimitiveType" foreground="#808000"/>
   <style name="Operator" foreground="#8994a1"/>
-  <style name="Preprocessor" foreground="#5454ff"/>
+  <style name="Preprocessor" foreground="#a6a8ff"/>
   <style name="Label" foreground="#ffff55"/>
   <style name="Comment" foreground="#808080"/>
   <style name="Doxygen.Comment" foreground="#629755" italic="true"/>
@@ -51,4 +54,11 @@
   <style name="DiffSourceChar" foreground="#000000" background="#c34141"/>
   <style name="DiffDestLine" background="#2d8c2d"/>
   <style name="DiffDestChar" foreground="#000000" background="#41c341"/>
+  <style name="LogChangeLine" foreground="#c00000"/>
+  <style name="Warning" underlineColor="#ffbe00" underlineStyle="SingleUnderline"/>
+  <style name="WarningContext" underlineColor="#ffbe00" underlineStyle="DotLine"/>
+  <style name="Error" underlineColor="#ff0000" underlineStyle="SingleUnderline"/>
+  <style name="ErrorContext" underlineColor="#ff0000" underlineStyle="DotLine"/>
+  <style name="Declaration" foreground="#000000" background="#ffffff" bold="true"/>
+  <style name="OutputArgument" foreground="#000000" background="#ffffff" italic="true"/>
 </style-scheme>
