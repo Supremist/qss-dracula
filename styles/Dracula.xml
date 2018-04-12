@@ -48,17 +48,18 @@
   <style name="RemovedLine" foreground="#bbbbbb" background="#450505"/>
   <style name="DiffFile" foreground="#55ff55"/>
   <style name="DiffLocation" foreground="#ffff55"/>
-  <style name="DiffFileLine" foreground="#000000" background="#d7d700"/>
-  <style name="DiffContextLine" foreground="#000000" background="#8aaab6"/>
+  <style name="DiffFileLine" background="#d7d700"/>
+  <style name="DiffContextLine" background="#8aaab6"/>
   <style name="DiffSourceLine" background="#8c2d2d"/>
-  <style name="DiffSourceChar" foreground="#000000" background="#c34141"/>
+  <style name="DiffSourceChar" background="#c34141"/>
   <style name="DiffDestLine" background="#2d8c2d"/>
-  <style name="DiffDestChar" foreground="#000000" background="#41c341"/>
+  <style name="DiffDestChar" background="#41c341"/>
   <style name="LogChangeLine" foreground="#c00000"/>
   <style name="Warning" underlineColor="#ffbe00" underlineStyle="SingleUnderline"/>
   <style name="WarningContext" underlineColor="#ffbe00" underlineStyle="DotLine"/>
   <style name="Error" underlineColor="#ff0000" underlineStyle="SingleUnderline"/>
   <style name="ErrorContext" underlineColor="#ff0000" underlineStyle="DotLine"/>
-  <style name="Declaration" foreground="#000000" background="#ffffff" bold="true"/>
-  <style name="OutputArgument" foreground="#000000" background="#ffffff" italic="true"/>
+  <style name="Declaration" bold="true"/>
+  <style name="FunctionDefinition" foreground="#ffc66d"/>
+  <style name="OutputArgument" background="#ffffff" italic="true"/>
 </style-scheme>
