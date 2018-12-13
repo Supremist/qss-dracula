@@ -26,6 +26,8 @@
   <style name="Keyword" foreground="#cc7832"/>
   <style name="PrimitiveType" foreground="#808000"/>
   <style name="Operator" foreground="#8994a1"/>
+  <style name="Overloaded Operator" foreground="#00677c"/>
+  <style name="Punctuation" foreground="#a9b7c6" background="#2b2b2b"/>
   <style name="Preprocessor" foreground="#a6a8ff"/>
   <style name="Label" foreground="#ffff55"/>
   <style name="Comment" foreground="#808080"/>
@@ -61,5 +63,5 @@
   <style name="ErrorContext" underlineColor="#ff0000" underlineStyle="DotLine"/>
   <style name="Declaration" bold="true"/>
   <style name="FunctionDefinition" foreground="#ffc66d"/>
-  <style name="OutputArgument" background="#ffffff" italic="true"/>
+  <style name="OutputArgument" background="#2b2b2b" italic="true" relativeForegroundSaturation="0.15" relativeForegroundLightness="0.2"/>
 </style-scheme>
